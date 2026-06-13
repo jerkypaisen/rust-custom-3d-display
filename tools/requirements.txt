@@ -1,0 +1,7 @@
+# model2mdraw.py / preview_*.py / validate_obj.py の依存
+numpy
+trimesh
+pillow
+scipy            # 削減後のUV/ウェイト転写の最近傍探索に使用
+rtree            # trimesh の最近傍点クエリ(proximity)に必要
+fast-simplification  # -f 指定時のポリゴン削減(Quadric Error Metrics)
